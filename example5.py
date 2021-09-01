@@ -1,6 +1,7 @@
 def file_size(file_info):
-    ___, ___, ___ = file_info
-    return "{:.2f}".format(___ / 1024)
+    name, type, size = file_info
+
+    return "{:.2f}".format(size / 1024)
 
 
 print(file_size(("Class Assignment", "docx", 17875)))  # Should print 17.46
