@@ -4,13 +4,8 @@ def skip_elements(elements):
     for index, element in enumerate(elements):
         if index % 2 == 0:
             list.insert(index, element)
-  
 
     return list
-
-
-
-
 
 
 print(
