@@ -1,11 +1,16 @@
 def skip_elements(elements):
+
     list = []
     for index, element in enumerate(elements):
         if index % 2 == 0:
             list.insert(index, element)
-    # code goes here
+  
 
     return list
+
+
+
+
 
 
 print(
